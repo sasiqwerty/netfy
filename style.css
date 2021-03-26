@@ -105,4 +105,9 @@ body .info-pos {
 body .info-pos p {
   padding: 0.5em;
 }
+
+body .info-pos h3 {
+  margin: 0.75em 0.25em 0.25em 0;
+  font-size: 1.8rem;
+}
 /*# sourceMappingURL=style.css.map */
