@@ -17,16 +17,6 @@ body .pos-heading #name1 {
   background: #fef5f5;
 }
 
-body .pos-links {
-  color: black;
-}
-
-body .pos-parts:hover {
-  font-size: 1.25em;
-  -webkit-transition: 250ms ease-in;
-  transition: 250ms ease-in;
-}
-
 body .pos-parts {
   text-align: center;
   font-size: 1.2em;
@@ -38,6 +28,14 @@ body .pos-parts {
   border-radius: 1em;
   -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
           box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+  text-decoration: none;
+  color: #000;
+}
+
+body .pos-parts:hover {
+  font-size: 1.25em;
+  -webkit-transition: 250ms ease-in;
+  transition: 250ms ease-in;
 }
 
 body .pos-list {
