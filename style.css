@@ -9,7 +9,7 @@ html {
 
 body {
   background: #e4e4e4;
-  font-size: 1.2em;
+  font-size: 1.1em;
   font-family: Bitter;
 }
 
@@ -23,7 +23,7 @@ body .pos-heading #name1 {
 
 body .pos-parts {
   text-align: center;
-  font-size: 1.2em;
+  font-size: 1.3rem;
   font-weight: 800;
   text-align: center;
   display: inline-block;
@@ -37,9 +37,14 @@ body .pos-parts {
 }
 
 body .pos-parts:hover {
-  font-size: 1.25em;
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
   -webkit-transition: 250ms ease-in;
   transition: 250ms ease-in;
+}
+
+body .scroll {
+  font-size: 1rem;
 }
 
 body .pos-list {

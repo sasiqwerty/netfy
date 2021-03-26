@@ -29,7 +29,7 @@ html {
 }
 body {
   background: $bg-color;
-  font-size: 1.2em;
+  font-size: 1.1em;
   font-family: Bitter;
   .pos-heading {
     text-align: center;
@@ -40,7 +40,7 @@ body {
 
   .pos-parts {
     text-align: center;
-    font-size: 1.2em;
+    font-size: 1.3rem;
     font-weight: 800;
     text-align: center;
     display: inline-block;
@@ -52,10 +52,12 @@ body {
     color: #000;
   }
   .pos-parts:hover {
-    font-size: 1.25em;
+    transform: scale(1.05);
     transition: 250ms ease-in;
   }
-
+  .scroll {
+    font-size: 1rem;
+  }
   .pos-list {
     display: flex;
     flex-direction: row;
