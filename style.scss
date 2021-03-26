@@ -1,0 +1,81 @@
+$noun-color: #06c694;
+
+$pronoun-color: #f78e6e;
+
+$adjective-color: #11bdd4;
+
+$preposition-color: #9cc9a3;
+
+$verb-color: #75b3f0;
+
+$adverb-color: #ffd166;
+
+$conjunction-color: #0cb0a9;
+
+$interjection-color: #e87d8f;
+
+$pos-color: #fef5f5;
+
+$bg-color: #e4e4e4;
+
+$boxShadow-color: rgba(0, 0, 0, 0.25);
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: $bg-color;
+  font-size: 1.2em;
+  font-family: Bitter;
+  .pos-heading {
+    text-align: center;
+    #name1 {
+      background: $pos-color;
+    }
+  }
+  .pos-parts {
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 800;
+    text-align: center;
+    display: inline-block;
+    margin: 0.5em;
+    padding: 0.5em 1em;
+    border-radius: 1em;
+    box-shadow: 2px 2px 5px $boxShadow-color;
+  }
+
+  .pos-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style-type: none;
+
+    #name2 {
+      background: $noun-color;
+    }
+    #name3 {
+      background: $pronoun-color;
+    }
+    #name4 {
+      background: $verb-color;
+    }
+    #name5 {
+      background: $preposition-color;
+    }
+    #name6 {
+      background: $adjective-color;
+    }
+    #name7 {
+      background: $adverb-color;
+    }
+    #name8 {
+      background: $conjunction-color;
+    }
+    #name9 {
+      background: $interjection-color;
+    }
+  }
+}
