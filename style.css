@@ -17,6 +17,16 @@ body .pos-heading #name1 {
   background: #fef5f5;
 }
 
+body .pos-links {
+  color: black;
+}
+
+body .pos-parts:hover {
+  font-size: 1.25em;
+  -webkit-transition: 250ms ease-in;
+  transition: 250ms ease-in;
+}
+
 body .pos-parts {
   text-align: center;
   font-size: 1.2em;

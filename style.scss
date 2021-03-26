@@ -34,6 +34,13 @@ body {
       background: $pos-color;
     }
   }
+  .pos-links {
+    color: rgb(0, 0, 0);
+  }
+  .pos-parts:hover {
+    font-size: 1.25em;
+    transition: 250ms ease-in;
+  }
   .pos-parts {
     text-align: center;
     font-size: 1.2em;
